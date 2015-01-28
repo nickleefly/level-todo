@@ -1,4 +1,4 @@
-#!/usr/bin/env node                                                                                                               [0/684]
+#!/usr/bin/env node
 var fs = require('fs')
 var path = require('path')
 var mkdirp = require('mkdirp')
