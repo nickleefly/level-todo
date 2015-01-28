@@ -14,7 +14,7 @@ var db = levelup(dbDir, { encoding: 'json' })
 var todo = require('../index')
  
 function printUsage() {
-  fs.createReadStream(__dirname + '/usage.md')
+  fs.createReadStream(__dirname + '../usage.md')
   .pipe(process.stdout)
 }
  
