@@ -1,5 +1,5 @@
 {
-  "name": "todo",
+  "name": "level-todo",
   "version": "0.1.0",
   "description": "todo cli in leveldb",
   "bin": "bin/cmd.js",
