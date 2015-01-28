@@ -7,7 +7,7 @@ var levelup = require('levelup')
 
 var argv = minimist(process.argv.slice(2))
 var HOME = process.env.HOME
-var dbDir = argv.d || path.join(HOME, 'todo.db')
+var dbDir = path.join(HOME, 'todo.db')
 mkdirp.sync(dbDir)
 
 var db = levelup(dbDir, { encoding: 'json' })
