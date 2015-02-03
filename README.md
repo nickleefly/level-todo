@@ -6,7 +6,15 @@ A todo list using leveldb
 
 To add a new list,
 
-`todo add "this is a name" "this is a value"` or `todo add read https://www.npmjs.com`
+```
+level-todo add "this is a name" "this is a value"
+```
+
+or
+
+```
+todo add read https://www.npmjs.com
+```
 
 # Install
 
