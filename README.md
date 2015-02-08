@@ -1,4 +1,4 @@
-# level-todo [ ![Codeship Status fora
+# level-todo [ ![Codeship Status for nickleefly/level-todo](https://codeship.com/projects/deb71b40-919c-0132-3ac4-76ae55305aa6/status?branch=master)](https://codeship.com/projects/61721)
 
 A todo list using leveldb
 
