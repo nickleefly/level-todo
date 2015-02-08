@@ -1,10 +1,10 @@
-# level-todo
+# level-todo [ ![Codeship Status fora
 
 A todo list using leveldb
 
 # example
 
-To add a new list,
+To add a new list
 
 ```
 level-todo add "this is a name" "this is a value"
