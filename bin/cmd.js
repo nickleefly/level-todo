@@ -10,7 +10,7 @@ var HOME = process.env.HOME
 var dbDir = path.join(HOME, 'todo.db')
 mkdirp.sync(dbDir)
 
-var db = levelup(dbDir, { encoding: 'json' })
+var db = levelup(dbDir)
 var todo = require('../index')
 
 function printUsage() {
