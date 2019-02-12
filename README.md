@@ -1,4 +1,5 @@
 # level-todo [ ![Codeship Status for nickleefly/level-todo](https://codeship.com/projects/deb71b40-919c-0132-3ac4-76ae55305aa6/status?branch=master)](https://codeship.com/projects/61721)
+[![Build Status](https://travis-ci.org/nickleefly/level-todo.svg?branch=master)](https://travis-ci.org/nickleefly/level-todo)
 
 A todo list using leveldb
 
