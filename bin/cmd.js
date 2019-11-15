@@ -4,18 +4,19 @@ var path = require('path')
 var mkdirp = require('mkdirp')
 var minimist = require('minimist')
 var levelup = require('levelup')
+var leveldown = require('leveldown')
 
 var argv = minimist(process.argv.slice(2))
 var HOME = process.env.HOME
 var dbDir = path.join(HOME, 'todo.db')
 mkdirp.sync(dbDir)
 
-var db = levelup(dbDir)
+var db = levelup(leveldown(dbDir))
 var todo = require('../index')
 
-function printUsage() {
+function printUsage () {
   fs.createReadStream(__dirname + '/../usage.md')
-  .pipe(process.stdout)
+    .pipe(process.stdout)
 }
 
 var name = argv._[1]

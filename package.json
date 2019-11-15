@@ -1,6 +1,6 @@
 {
   "name": "level-todo",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "todo cli in leveldb",
   "bin": "bin/cmd.js",
   "repository": {
@@ -15,8 +15,8 @@
   "author": "Xiuyu Li <nickleefly@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "leveldown": "^5.0.0",
-    "levelup": "^4.0.0",
+    "leveldown": "^5.4.1",
+    "levelup": "^4.3.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1"
   }
