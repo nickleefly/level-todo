@@ -1,8 +1,10 @@
 {
   "name": "level-todo",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "todo cli in leveldb",
-  "bin": "bin/cmd.js",
+  "bin": {
+    "todo": "bin/cmd.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/nickleefly/level-todo.git"
