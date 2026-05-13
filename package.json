@@ -15,9 +15,8 @@
   "author": "Xiuyu Li <nickleefly@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "leveldown": "^5.4.1",
-    "levelup": "^4.3.2",
-    "minimist": "^1.2.0",
-    "mkdirp": "^1.0.0"
+    "level": "^10.0.0",
+    "minimist": "^1.2.8",
+    "mkdirp": "^3.0.1"
   }
 }
