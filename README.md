@@ -1,4 +1,5 @@
 # level-todo
+[![Build Status](https://travis-ci.org/nickleefly/level-todo.svg?branch=master)](https://travis-ci.org/nickleefly/level-todo)
 
 A todo list CLI using LevelDB
 
