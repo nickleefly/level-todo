@@ -29,7 +29,7 @@ async function main () {
     await todo.get(db, name)
   } else if (argv._[0] === 'rm' || argv._[0] === 'done') {
     await todo.del(db, name)
-  } else if (argv._[0] === 'list') {
+  } else if (argv._[0] === 'list' || argv._[0] === 'ls') {
     await todo.list(db)
   } else if (argv._[0] === 'destroy') {
     await db.close()
