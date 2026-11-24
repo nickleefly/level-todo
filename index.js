@@ -32,7 +32,7 @@ todo.list = async function (db) {
     var it = db.iterator()
     var entry = await it.next()
     while (entry !== undefined) {
-      console.log(util.format('value for %s: %s', entry[0], entry[1]))
+      console.log(util.format('title: \x1b[32m%s\x1b[39m\ncontent: %s\n', entry[0], entry[1]))
       entry = await it.next()
     }
   } catch (err) {
